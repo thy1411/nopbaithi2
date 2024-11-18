@@ -9,6 +9,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
+import java.util.List;
 import model.SanPham;
 
 /**
@@ -183,5 +184,9 @@ public class SanPhamDAO {
         if (kq != null) {
             System.out.println(kq);
         }
+    }
+
+    public List<SanPham> getAllSanPham() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
